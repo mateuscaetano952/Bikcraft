@@ -1,0 +1,17 @@
+.introducao-bg {
+    background: #000000;
+    max-height: 70vh;
+    margin-bottom: 450px;
+}
+
+.introducao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.introducao-imagem-container {
+  width: 50vw; 
+  overflow: hidden;         
+}
+

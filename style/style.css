@@ -1,0 +1,13 @@
+@import "global.css";
+/*Funcionais*/
+@import "utilitarios/funcionais.css";
+@import "utilitarios/tipografia.css";
+@import "utilitarios/cores.css";
+/*Home*/
+@import "home/header.css";
+@import "home/introducao.css";
+@import "home/bicicleta-lista.css";
+@import "home/tecnologia.css";
+@import "home/depoimentos.css";
+@import "home/seguros.css";
+@import "home/footer.css";

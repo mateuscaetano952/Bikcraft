@@ -1,6 +1,6 @@
 .introducao-bg {
     background: #000000;
-    max-height: 70vh;
+    max-height: 80vh;
     margin-bottom: 450px;
 }
 
@@ -10,8 +10,35 @@
     gap: 2rem;
 }
 
+.introducao-titulo {
+    margin-top: 3rem;
+}
+
+.introducao-texto {
+    margin: 2rem  0 ;
+}
+
+
 .introducao-imagem-container {
   width: 50vw; 
+  max-width: 500px;
   overflow: hidden;         
 }
 
+@media (max-width: 800px) {
+  .introducao-bg {
+    background-color: #111111;
+    max-height: 120vh;
+    margin-bottom: 250px;
+  }
+
+  .introducao {
+    grid-template-columns: 1fr;
+    gap: 25px;
+}
+
+.introducao-texto {
+    margin: 1rem  0 ;
+}
+
+}

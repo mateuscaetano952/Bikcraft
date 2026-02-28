@@ -30,15 +30,20 @@
 
     <main class="introducao-bg">
         <div class="introducao container">
-            <div class="introducao-texto">
-                 <h1 class="font-1-xxl cor-0">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
-                <p class="font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
-                <a href="" class="butão">Escolha a sua</a>
+            <div class="introducao-conteudo">
+                <h1 class="introducao-titulo font-1-xxl cor-0">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
+                <p class="introducao-texto font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
+                <a href="" class="butão font-2-l">Escolha a sua</a>
             </div>
-            <picture class="introducao-imagem-container">
-                <img class="introducao-imagem" src="img/fotos/introducao.jpg" alt="Bicicleta preta com moto ele´trico"
-            width="640" height="800">
-        </picture>
+            <picture>
+                <!-- Imagem para telas grandes (Desktop) -->
+                <source srcset="img/fotos/introducao.jpg" media="(min-width: 801px)">
+                
+                <!-- Imagem para telas médias -->
+                <source srcset="img/bicicleta/nimbus1.jpg" media="(max-width: 800px)">
+                
+                <img src="img/fotos/introducao.jpg" alt="Descrição da imagem">
+            </picture>
         </div>
     </main>
 

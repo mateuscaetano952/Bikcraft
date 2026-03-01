@@ -9,7 +9,7 @@
 <body id="home">
     <header class="header-bg">
         <div class="header container">
-            <a class="introducao-imagem-container" href="">
+            <a class="header-logo" href="">
                 <img src="img/bikcraft.svg" alt="">
             </a>
             <nav aria-label="primaria">
@@ -35,7 +35,7 @@
                 <p class="introducao-texto font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
                 <a href="" class="butão font-2-l">Escolha a sua</a>
             </div>
-            <picture>
+            <picture class="bicicleta-introducao-imagem">
                 <!-- Imagem para telas grandes (Desktop) -->
                 <source srcset="img/fotos/introducao.jpg" media="(min-width: 801px)">
                 
@@ -48,25 +48,25 @@
     </main>
 
     <article class="bibicleta-lista">
-        <h2 class="font-1-xxl">Escolha a sua <span class="cor-p1">.</span></h2>
-        <ul class="bicicleta-menu">
+        <h2 class="font-1-xxl container">escolha a sua <span class="cor-p1">.</span></h2>
+        <ul class="bicicleta-menu font-1-xl">
             <li class="biblcieta-menu-item">
                 <a href="">
-                    <img src="img/bicicletas/nimbus.jpg" alt="" width="460px" height="520">
+                    <img class="bicicleta-menu-imagem" src="img/bicicletas/nimbus.jpg" alt="">
                 </a>
                 <h2>Nimbus Stark</h2>
                 <p>R$ 2499</p>
             </li>
             <li class="biblcieta-menu-item">
                 <a href="">
-                    <img src="img/bicicletas/magic.jpg" alt="" width="460px" height="520">
+                    <img class="bicicleta-menu-imagem" src="img/bicicletas/magic.jpg" alt="">
                 </a>
-                <h2>Magic Might</h2>
+                <h3>Magic Might</h3>
                 <p>R$ 2999</p>
             </li>
             <li class="biblcieta-menu-item">
                 <a href="">
-                    <img src="img/bicicletas/nebula.jpg" alt="" width="460px" height="520">
+                    <img class="bicicleta-menu-imagem" src="img/bicicletas/nebula.jpg" alt="">
                 </a>
                 <h2>Nebula Carbon</h2>
                 <p>R$ 3999</p>
@@ -76,12 +76,26 @@
     
     <article class="tecnologia-bg">
         <div class="tecnologia container">
-            <div class="tecnologia-text">
-                <h2>Tecologia avançada</h2>
-                <h1>voce esccolhe as suas cores e componentes <span>.</span></h1>
-                <p>
+            <div class="tecnologia-conteudo">
+                <h2 class="tecnologia-subtitulo">Tecologia avançada</h2>
+                <h1 class="tecnologia-titulo font-1-xxl">voce esccolhe as suas cores e componentes <span>.</span></h1>
+                <p class="font-2-l cor-5">
                     Cada Bikcraft é única e possui a sua identidade. As medidas serão exatas para o seu corpo e altura, garantindo maior conforto e ergonomia na sua pedalada. Você pode também personalizar completamente as suas cores.
                 </p>
+                <a class="tecnologia-botao" href=""> Escolha um modelo</a>
+                <ul class="tecnologia-lista">
+                    <li class="tecnologia-lista-item">
+                        <img src="img/icones/eletrica.svg" alt="">
+                        <h3>Motor elétrico</h3>
+                        <p>Toda Bikcraft é equipada com um motor elétrico que possui duração de até 120h. A bateria é recarregada com a sua energia gasta ao pedalar</p>
+                    </li>
+                    <li class="tecnologia-lista-item">
+                        <img src="img/icones/rastreador.svg" alt="">
+                        <h3>Motor elétrico</h3>
+                        <p>Toda Bikcraft é equipada com um motor elétrico que possui duração de até 120h. A bateria é recarregada com a sua energia gasta ao pedalar</p>
+                    </li>
+                </ul>
+
             </div>
             
             <picture class="tecnologia-imagem-container">

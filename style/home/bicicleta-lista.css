@@ -4,4 +4,12 @@
     margin-bottom: 2rem;
     margin: 20px;
     height: auto;
+    white-space: nowrap;
+    overflow-x: auto;  
+}
+
+.bicicleta-menu-imagem {
+    min-width: 300px;
+    min-height: 300px;
+   
 }

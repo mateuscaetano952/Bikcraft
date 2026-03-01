@@ -1,13 +1,14 @@
 .introducao-bg {
     background: #000000;
-    max-height: 80vh;
-    margin-bottom: 450px;
+    max-height: 100vh;
+    margin-bottom: 100px; 
 }
 
 .introducao {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    align-items: center;
 }
 
 .introducao-titulo {
@@ -19,17 +20,21 @@
 }
 
 
-.introducao-imagem-container {
+@media (min-width:801px) {
+.bicicleta-introducao-imagem {
   width: 50vw; 
+  height: 110vh;
   max-width: 500px;
   overflow: hidden;         
+}
 }
 
 @media (max-width: 800px) {
   .introducao-bg {
     background-color: #111111;
     max-height: 120vh;
-    margin-bottom: 250px;
+    margin-bottom: 200px; 
+
   }
 
   .introducao {

@@ -1,0 +1,28 @@
+.parceiros-lista {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* gap is zero because borders handle spacing */
+}
+
+.parceiros-titulo {
+    margin-bottom: 60px;
+}
+
+.parceiros-item {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* remove borders on outside edges so only contacting sides have borders */
+.parceiros-item:nth-child(4n+1) { /* first column */
+    border-left: none;
+}
+.parceiros-item:nth-child(-n+4) { /* first row */
+    border-top: none;
+}
+.parceiros-item:nth-child(4n) { /* last column */
+    border-right: none;
+}
+.parceiros-item:nth-last-child(-n+4) { /* last row (assuming exactly 8 items or multiples of 4) */
+    border-bottom: none;
+}

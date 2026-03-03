@@ -1,4 +1,49 @@
+.seguros-bg {
+    background-color: var(--cor-11);
+    padding: 100px 0;
+}
+
 .seguros {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.seguros-conteudo-prata {
+    height: 80vh;
+}
+
+.seguros-conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: var(--cor-12);
+}
+
+.seguro-titulo {
+    margin-bottom: 70px;
+}
+
+.seguros-subtitulo {
+    text-transform: uppercase;
+}
+
+.seguros-subtitulo-valor {
+    text-align: right;
+}
+
+.seguros-items {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+    .seguros {
+        grid-template-columns: 1fr;
+    }
 }

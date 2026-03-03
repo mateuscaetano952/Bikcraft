@@ -12,3 +12,7 @@
     border-radius: 4px;
     background-color: orange;
 }
+
+.text-align-right {
+    text-align: right;
+}

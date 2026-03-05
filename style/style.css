@@ -12,3 +12,5 @@
 @import "home/parceiros.css";
 @import "home/seguros.css";
 @import "home/footer.css";
+/*Bicicleta lista*/
+@import "bicicletas/bicicleta-lista.css";

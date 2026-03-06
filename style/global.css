@@ -58,7 +58,5 @@ textarea {
 }
 
 img {
-    object-fit: cover;
-    height: auto; 
     border-radius: 5px;
 }

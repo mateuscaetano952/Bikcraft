@@ -13,3 +13,29 @@
     min-height: 300px;
    
 }
+
+.bicicleta-menu-texto{
+    padding-left: 15px;
+}
+
+.bicicleta-menu-texto h3::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 10px;
+    background-color: #f1de0d;
+    top: -5px;
+    left: -12px;
+    position: relative;
+}
+
+.bicicleta-menu-texto h3:hover::before {
+    width: 25px;
+    transition: width 0.3s ease;
+}
+
+.bicicleta-menu img {
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+}

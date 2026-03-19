@@ -1,6 +1,6 @@
 .introducao-bg {
     background: #000000;
-    margin-bottom: 100px; 
+    margin-bottom: 20px; 
     box-shadow: inset 0px -120px #ffffff;
 }
 
@@ -46,6 +46,7 @@
 @media (max-width: 800px) {
     .introducao-bg {
         background-color: #111111;
+        padding-bottom: 100px;
     }
 
     .introducao {

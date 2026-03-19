@@ -9,6 +9,10 @@
     padding: 40px 10px;
 }
 
+.footer ul li{
+    padding: 5px 0;
+}
+
 @media (max-width: 800px) {
     .footer {
         grid-template-columns: 1fr 1fr;

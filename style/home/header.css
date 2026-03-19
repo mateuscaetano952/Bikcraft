@@ -34,9 +34,10 @@
     background: #ffffff;
     margin-top: 4px;
     position: absolute;
+    transition: width 0.3s ease;
 }
 
-.header li:hover::after {
+.bibicleta-lista a:hover {
     width: 100%;
     transition: width 0.3s ease;
 }

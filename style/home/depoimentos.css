@@ -4,7 +4,42 @@
 }
 
 .depoimento-conteudo {
-    
+    display: grid;
     background-color: var(--cor-p1);
     padding: 60px;       
+    font-family: "Merriweahter", serif;
+    font-weight: 900;
+    align-items: end;
+    position: relative;
+}
+
+.depoimento-conteudo p {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.depoimento-conteudo p::before,
+.depoimento-conteudo p::after {
+   
+   font-size: 5rem;
+   color: rgba(18, 17, 17, 0.198);
+   position: absolute;
+} 
+
+.depoimento-conteudo p::before {
+    content: "“";
+    top: 100px;
+    left: 20px;
+}
+
+.depoimento-conteudo p::after {
+    content: "”";
+}
+
+.depoimentos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0px;
 }

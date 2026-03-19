@@ -2,9 +2,16 @@
     margin-bottom: 30px;
 }
 
+.bibicleta-lista-img {
+    height: 80px;
+    width: 30em;
+    
+}
+
 .bibicleta-lista-img img{
+    width: 100%;
     height: auto;
-    width: 34em;
+    object-fit: cover;
 }
 
 .bibicleta-lista-img {
@@ -37,11 +44,12 @@
     margin-bottom: 20px;
 }
 
-.bicicleta-lista-item-texto-descricao {
-    margin-bottom: 20px;
+.bicicleta-lista-caracteristica li {
+    margin-bottom: 10px;
 }
 
 .bicicleta-lista-caracteristica {
+    margin-top: 30px;
     display: flex;
     gap: 10px;
     justify-content: space-between;

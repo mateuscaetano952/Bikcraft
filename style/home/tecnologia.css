@@ -68,22 +68,4 @@
     .tecnologia-imagem-container {
     display: none;
 }
-
-    /* bordas somente em telas pequenas (até 800px) para o grid de 2 colunas/8 itens */
-    .tecnologia-lista {
-        border-top: 1px solid var(--cor-p1);
-        border-left: 1px solid var(--cor-p1);
-    }
-    .tecnologia-lista-item {
-        padding: 10px;
-        border-right: 1px solid var(--cor-p1);
-        border-bottom: 1px solid var(--cor-p1);
-    }
-    /* ajusta bordas na última coluna/último item */
-    .tecnologia-lista-item:nth-child(2n) {
-        border-right: none;
-    }
-    .tecnologia-lista-item:last-child {
-        border-bottom: none;
-    }
 }

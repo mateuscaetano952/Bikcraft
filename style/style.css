@@ -3,6 +3,7 @@
 @import "utilitarios/funcionais.css";
 @import "utilitarios/tipografia.css";
 @import "utilitarios/cores.css";
+
 /*Home*/
 @import "home/header.css";
 @import "home/introducao.css";
@@ -14,5 +15,9 @@
 @import "home/footer.css";
 /*Bicicleta lista*/
 @import "bicicletas/bicicleta-lista.css";
+
 /*Nosso contato*/
 @import "contato/nosso-contato.css";
+
+/*Termos*/
+@import "termos/termos.css";

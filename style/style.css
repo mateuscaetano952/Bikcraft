@@ -19,5 +19,10 @@
 /*Nosso contato*/
 @import "contato/nosso-contato.css";
 
+/*seguro*/
+@import "seguros/seguro.css";
+@import "seguros/perguntas.css";
+
 /*Termos*/
 @import "termos/termos.css";
+

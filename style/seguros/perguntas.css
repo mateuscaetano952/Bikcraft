@@ -1,0 +1,32 @@
+.perguntas dl div {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.perguntas dl div:nth-child(odd) {
+    background-color: var(--cor-1);
+
+}
+
+.perguntas div dt {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 8px;
+}
+
+.perguntas div dt::before{
+    content: "";
+    width: 12px;
+    height: 6px;
+    background: var(--cor-p1);
+    display: inline-block;
+}
+
+.perguntas div dt::after{
+    content: "";
+    width: 12px;
+    height: 6px;
+    background: url(../../img/icones/seta-abrir.svg);
+    display: inline-block;
+}

@@ -1,0 +1,27 @@
+.seguros span {
+    grid-column: 1 / -1;
+}
+
+.seguros h2 {
+    grid-column: 1 / -1;
+    
+}
+
+.vantangens-lista {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+@media (max-width: 1000px) {
+    .vantangens-lista {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .vantangens-lista {
+        grid-template-columns: 1fr;
+    }
+}
+

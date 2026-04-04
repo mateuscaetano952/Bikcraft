@@ -2,3 +2,41 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.nosso-contato-bg {
+    background: #111111;;
+}
+
+.nosso-contato {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+}
+
+.endereco, .contato {
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+.endereco {
+    background: black;
+}
+
+.contato {
+    background: white;
+}
+
+.nosso-contato h3 {
+    margin-bottom: 2rem;
+}
+
+ul {
+    margin-bottom: 2rem;
+}
+
+.endereço-informações {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+}
+
+

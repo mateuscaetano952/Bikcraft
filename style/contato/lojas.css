@@ -1,0 +1,39 @@
+.lojas-locais {
+    background-color: var(--cor-1);
+}
+
+.lojas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+   
+}
+
+.lojas img {
+    border-radius: 0px;
+}
+
+.loja {
+     background: white;
+     border-radius: 5px;
+}
+
+.loja-conteudo {
+    padding: 20px;
+}
+
+.loja ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.loja h3 {
+ margin-bottom: 30px;   
+}
+
+.loja ul li{
+    padding-left: 10px;
+    border-left: 1px solid black;
+}
+

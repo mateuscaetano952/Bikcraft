@@ -39,4 +39,37 @@ ul {
     gap: 10px;
 }
 
+input {
+    display: block;
+    padding: 15px 20px;
+    background: var(--cor-2);
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contato form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+form div:nth-child(3) {
+    grid-column: span 2;
+}
+
+form div:nth-child(4) {
+    grid-column: span 2;
+}
+
+textarea {
+    display: block;
+    padding: 15px 20px;
+    background: var(--cor-2);
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 150px;
+}
+
 

@@ -1,0 +1,54 @@
+.bicicleta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bicicleta-titutlo {
+    grid-column: span 2;
+}
+
+.bicicleta-imagens {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}   
+
+.bicicleta-imagens img:nth-child(1) {
+    grid-column: span 2;
+}
+
+.bibicleta-conteudo {
+    padding: 20px;
+}
+
+.bicicleta-lista {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bicicleta-ficha-tecnica {
+    padding: 40px;
+}
+
+.bicicleta-ficha-tecnica li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+.seguro-bg {
+    background-color: #111111;
+   box-shadow: inset 0 150px  rgb(255, 255, 255);
+}
+
+.seguro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.seguro-conteudo {
+    padding: 20px;
+}
+
+

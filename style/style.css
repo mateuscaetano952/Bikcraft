@@ -6,6 +6,7 @@
 
 /*Componentes*/
 @import "componentes/header.css";
+@import "componentes/footer.css";
 
 /*Home*/
 @import "home/header.css";

@@ -1,6 +1,6 @@
 .seguros-bg {
     background-color: var(--cor-11);
-    padding: 100px 0;
+
 }
 
 .seguros {
@@ -10,9 +10,6 @@
     align-items: center;
 }
 
-.seguros-conteudo-prata {
-    height: 80vh;
-}
 
 .seguros-conteudo {
     display: grid;
@@ -22,12 +19,10 @@
     background-color: var(--cor-12);
 }
 
-.seguro-titulo {
-    margin-bottom: 70px;
-}
 
 .seguros-subtitulo {
     text-transform: uppercase;
+    padding: 0 30px; 
 }
 
 .seguros-subtitulo-valor {
@@ -39,8 +34,10 @@
     align-items: center;
     gap: 10px;
     padding: 10px;
-    margin-bottom: 10px;
+    min-width: 300px;
 }
+
+
 
 @media (max-width: 800px) {
     .seguros {

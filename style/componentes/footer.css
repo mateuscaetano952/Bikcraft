@@ -1,12 +1,14 @@
 .footer-bg {
-    background-color: #000000;
+    background-color: var(--cor-12);
+    border: 1px solid var(--cor-12);
+
 }
 
 .footer {
     display: grid;
     grid-template-columns: 3fr 5fr 4fr;
     gap: 40px;
-    padding: 40px 10px;
+    padding: 0px 40px;
 }
 
 .footer ul li{
@@ -30,6 +32,11 @@
 
 .footer-informações ul li:hover {
     color: #ffffff;
+}
+
+.footer-redes {
+    display: flex;
+    gap: 20px;
 }
 
 @media (max-width: 800px) {

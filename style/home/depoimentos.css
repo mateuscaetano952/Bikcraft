@@ -43,3 +43,20 @@
     object-fit: cover;
     border-radius: 0px;
 }
+
+@media (max-width: 800px) {
+
+    .depoimentos {
+        grid-template-columns: 1fr;
+    }
+
+    .depoimentos img {
+        height: 200px;
+    }
+
+    .depoimento-conteudo {
+        padding: 30px;
+    }
+
+
+}

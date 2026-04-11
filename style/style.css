@@ -4,6 +4,9 @@
 @import "utilitarios/tipografia.css";
 @import "utilitarios/cores.css";
 
+/*Componentes*/
+@import "componentes/header.css";
+
 /*Home*/
 @import "home/header.css";
 @import "home/introducao.css";
@@ -29,3 +32,4 @@
 
 /*bibicleta*/
 @import "bicicleta/bicicleta.css";
+

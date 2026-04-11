@@ -3,27 +3,23 @@
 }
 
 .header {
+    padding-top: 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
+
 
 .header-menu {
     display: flex;
     gap: 2.7rem;
-    font-size: 18px;
-    line-height: 32px;
-    color: #ffffff;
 }
 
+
 .header li {
-    padding: 0.7rem 0px ;
     transition: background-color 0.3s ease;
     border-radius: 5px;
     position: relative;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400px;
 }
 
 .header li::after {
@@ -33,11 +29,11 @@
     width: 0px;
     background: #ffffff;
     margin-top: 4px;
-    position: absolute;
+    position: relative;
     transition: width 0.3s ease;
-}
+} 
 
-.bibicleta-lista a:hover {
+.header li:hover::after {
     width: 100%;
     transition: width 0.3s ease;
 }
@@ -59,9 +55,9 @@
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     .header-menu {
-        gap: 1rem;
+        gap: 0.5rem;
     }
 
     .header li {
